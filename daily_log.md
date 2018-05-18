@@ -27,3 +27,11 @@ Or you can just browse /sys/firmware/efi/efivars to see if any variables stand o
 
 可以利用“组策略”关闭，具体方法如下：
 win+R，输入gpedit.msc回车，点开“计算机配置\管理模板\Windows组件\Windows更新”，右边有一项“自动配置更新”，点开选禁用。还有，根目录下，点开“用户配置\管理模板\系统”，右边有一项“Windows自动更新”，点开禁用。重启就行了。如果不行或者想改别的设置，就在 “计算机配置\管理模板\Windows组件\Windows更新”下看看再禁用几个别的设置。
+
+
+### 2018-05-18
+
+#### Windows 10 LTSB activation
+
+参考如下github链接[ref link](https://github.com/luodaoyi/kms-server)
+
